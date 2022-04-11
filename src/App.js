@@ -128,6 +128,7 @@ export default function App() {
         wavePortalContract.off("NewWave", onNewWave);
       }
     };
+    // eslint-disable-next-line
   }, []);
 
   return (
